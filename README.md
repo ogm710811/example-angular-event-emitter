@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
+This project shows and example where the child component exposes an EventEmitter property with which it emits events when something happens. The parent binds to that event property and reacts to those events. The child's EventEmitter property is an output property, typically adorned with an @Output decoration.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
